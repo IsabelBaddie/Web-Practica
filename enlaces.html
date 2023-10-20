@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/Logo_pagina.jpg" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div>
+                <h1 class="text-center bg-rosa-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="enlaces" class="py-3">
+                    <h1 class="text-center titulo-parrafos">ENLACES</h1>
+                    <p>Los enlaces y links se hacen con la etiqueta a</p>
+                    <h2>Tipos de enlaces:</h2>
+                    <h3>Enlace a nuestra página</h3>
+                    <p><a href="index.html">ir a Home</a></p>
+                    <h3>Enlace a una página de internet (KIKO MILANO) </h3>
+                    <p><a href="https://www.kikocosmetics.com/es-es/">ir a gastar mis ahorros</a></p>
+                    <h3>Para que te dirija a un producto en una nueva pestaña</h3>
+                    <p><a href="https://www.kikocosmetics.com/es-es/maquillaje/ojos/delineador-de-ojos/DEFINITION-WATERPROOF-EYELINER/p-KM0030200800144" target="_blank">ir a mi delineador favorito</a></p>
+                    <h3>Enlace a un programa javascript</h3>
+                    <p><a href="javascript:alert('Que tal colegas!')">pulsa...</a></p>
+                    <h3>Enlace a un email</h3>
+                    <p><a href="mailto:alumno86088@ies-azarquiel.es">Sugerencia a la creadora de la web</a></p>
+                    <h3>Enlace en una imagen</h3>
+                    <p class="text-center"><a href="https://www.sephora.es/"><img src="img/Logo_sephora.png" alt="logosephora" width="200"></a></p>
+
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-rosa-o text-center text-white py-3">&copy; Isabel Carrasco </h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
