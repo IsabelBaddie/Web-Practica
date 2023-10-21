@@ -274,3 +274,103 @@ dd {
 .width_100 {
     width: 100%;
 }
+.icon-heart:before {
+    content: "\1f380";
+    background-color: white;
+  }
+
+table.zebra tr:nth-child(odd) {
+    background-color: #abaaf5;
+}
+
+table.zebra tr:nth-child(even) {
+    background-color: #d38bd8;
+}
+
+table.horario {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+table.horario td {
+    color: black;
+}
+table.horario th {
+    background-color:rgb(240, 240, 240) ;
+    color:rgb(38, 132, 125);
+}
+table.horario th.grupo {
+    font-size: 26px;
+    font-style: italic;
+}
+.fol {
+    background-color:rgb(128, 255, 255) ;
+}
+.ende {
+    background-color: rgb(40, 200, 200);
+}
+.lenguajeMarcas {
+    background-color:rgb(255, 210, 50) ;
+}
+.programacion {
+    background-color:rgb(188, 120, 120) ;
+}
+.sisi {
+    background-color:rgb(180, 180, 100) ;
+}
+.ingles {
+    background-color: rgb(100, 180, 240);
+}
+.baseDatos {
+    background-color: rgb(255, 200, 200);
+}
+
+form.form-login {
+    width: 50%;
+    float: left;
+    padding: 0 40px;
+}
+form.form-registro {
+    width: 50%;
+    float: right;
+    padding: 0 40px;
+}
+form.form-login fieldset{
+    width: 60%;
+}
+form.form-html5 {
+    width: 40%;
+    margin: 0 auto;
+}
+
+form.form-html5 fieldset {
+    padding: 0 30px;
+    background-color: rgb(251, 216, 245);
+}
+form.form-html5 legend {
+    background-color: rgb(10, 3, 70);
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+}
+form.form-html5 label {
+    background-color: rgb(141, 9, 178);
+    color: white;
+}
+.cb {
+    clear: both;
+}
+.boton {
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.boton-rosa {
+    background-color: rgb(211, 40, 168);
+    color: white;
+}
+.margen-izq {
+    margin-left: 15px;
+}
